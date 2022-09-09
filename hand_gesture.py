@@ -4,9 +4,8 @@ import os
 
 import hand_tracking_module as htm
 
-#################
+# variable to set the camera dimension
 widthCamera, highCamera = 1100, 880
-##############
 
 cap = cv2.VideoCapture(0)
 cap.set(3, widthCamera)
