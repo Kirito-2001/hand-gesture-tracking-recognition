@@ -10,9 +10,8 @@ from comtypes import CLSCTX_ALL
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 
 
-#################
+
 widthCamera, highCamera = 1330, 680
-##############
 
 cap = cv2.VideoCapture(0)
 cap.set(3, widthCamera)
